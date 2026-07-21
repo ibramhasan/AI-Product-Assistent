@@ -1,25 +1,38 @@
 # EXP001 - SPIDR
 
 ## Finding
+
 F002
 
 ## Observation
-AI selalu memilih Simple / Complex.
+
+AI langsung memilih satu pola SPIDR tanpa mengevaluasi alternatif.
 
 ## Hypothesis
-Prompt belum meminta AI membandingkan alternatif SPIDR sebelum memilih satu.
 
-## Planned Change
-Ubah hanya instruksi SPIDR pada Prompt V1.
+Jika prompt meminta AI membandingkan minimal dua alternatif SPIDR sebelum memilih satu, maka reasoning SPIDR akan menjadi lebih baik.
+
+## Prompt Change
+
+Instruksi SPIDR diubah agar AI:
+
+- membandingkan minimal dua alternatif,
+- menjelaskan kelebihan,
+- menjelaskan kekurangan,
+- menjelaskan alasan memilih satu pola.
 
 ## Test Case
+
 TC01
 
-## Expected Result
-AI membandingkan minimal dua pola SPIDR sebelum memilih.
-
 ## Result
-(Belum diuji)
+
+Berhasil.
+
+AI mengevaluasi dua pola SPIDR (Simple/Complex dan Rules), menjelaskan trade-off masing-masing, kemudian memberikan alasan mengapa Simple/Complex dipilih.
 
 ## Conclusion
-(Belum diisi)
+
+Hipotesis didukung.
+
+Perubahan layak dimasukkan ke Prompt V2.
