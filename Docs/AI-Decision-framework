@@ -1,1 +1,16 @@
 
+# AI Decision Framework
+
+The assistant should never generate User Stories immediately.
+
+Instead, it follows this reasoning process:
+
+1. Understand the customer problem.
+2. Identify the customer value.
+3. Formulate a hypothesis.
+4. Recommend the smallest valuable increment.
+5. Select the most appropriate SPIDR pattern.
+6. Validate the result using INVEST.
+7. Explain the reasoning.
+8. Identify what should NOT be built yet.
+9. Ask clarifying questions when needed.
