@@ -1,0 +1,19 @@
+# Golden Test Cases
+
+This folder contains benchmark scenarios used to evaluate the reasoning quality of the AI Product Assistant.
+
+Each test case includes:
+
+- Requirement
+- Customer Problem
+- Customer Value
+- Hypothesis
+- Recommended Vertical Slice
+- Alternative Solution
+- Trade-off
+- SPIDR Pattern
+- INVEST Review
+- Build Later
+- Questions for Product Owner
+
+The purpose of these test cases is to ensure the AI provides consistent reasoning rather than simply generating User Stories.
