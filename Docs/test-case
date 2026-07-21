@@ -1,1 +1,85 @@
 
+# Golden Test Cases
+
+---
+
+# TC-01 Checkout
+
+## Requirement
+
+As a customer,
+I want to checkout,
+so I can purchase products.
+
+---
+
+Customer Problem
+
+Customer cannot complete purchases.
+
+---
+
+Customer Value
+
+Customer successfully buys a product.
+
+---
+
+Hypothesis
+
+If customers can complete checkout easily,
+conversion rate will increase.
+
+---
+
+Recommended Vertical Slice
+
+- One product
+- One address
+- One payment method
+
+---
+
+SPIDR Pattern
+
+Workflow
+
+Reason
+
+Checkout is a sequential process.
+
+---
+
+INVEST Review
+
+Independent : ⚠️
+
+Negotiable : ✅
+
+Valuable : ✅
+
+Estimable : ⚠️
+
+Small : ❌
+
+Testable : ⚠️
+
+---
+
+Build Later
+
+- Voucher
+- Loyalty
+- Save Card
+- Multi Address
+- Gift Card
+
+---
+
+Questions
+
+Should guest checkout be supported?
+
+Is login mandatory?
+
+Which payment method should be implemented first?
