@@ -45,3 +45,8 @@ Belum menjelaskan alasan secara mendalam pada setiap prinsip.
 Severity
 
 Medium
+
+## F004
+
+AI memberikan reasoning,
+tetapi reasoning belum dapat ditelusuri ke evidence pada Product Backlog Item.
