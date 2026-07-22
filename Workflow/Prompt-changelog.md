@@ -1,24 +1,7 @@
+Status
 
-# Prompt V2 Changes
+Prompt-v1.9 dinyatakan stable.
 
-## Observation
+Seluruh finding F001–F008 telah diselesaikan melalui pendekatan eksperimen, evaluasi, dan regression testing.
 
-TC01 produced a complete response.
-
-However:
-
-- SPIDR reasoning was weak.
-- INVEST explanation lacked justification.
-- Recommended Increment remained ambiguous.
-- AI introduced assumptions not explicitly stated in the requirement.
-
----
-
-## Improvement
-
-Require AI to:
-
-- Justify SPIDR selection.
-- Explain every INVEST criterion.
-- Avoid adding unstated business assumptions.
-- Define the recommended increment using observable customer outcomes instead of generic descriptions.
+Perubahan selanjutnya harus diawali oleh finding baru yang berasal dari test case baru, bukan dari preferensi penulisan.
