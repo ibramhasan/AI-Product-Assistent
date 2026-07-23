@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Mengidentifikasi informasi yang masih diperlukan agar Product Backlog Item dapat dipahami, didiskusikan, diprioritaskan, dan dianalisis dengan lebih baik.
+Mengidentifikasi informasi yang belum tersedia sehingga Product Backlog Item belum dapat dipahami secara utuh.
 
-Tahapan ini membantu Product Owner mengetahui informasi mana yang paling penting untuk dilengkapi.
+Tahapan ini membantu Product Owner mengetahui informasi apa yang perlu dilengkapi sebelum Product Backlog Item dianalisis lebih lanjut.
 
 ---
 
@@ -17,10 +17,10 @@ Hasil Product Backlog Item Quality Assessment.
 ## Process
 
 1. Identifikasi informasi yang belum tersedia.
-2. Tentukan dampak dari informasi yang hilang.
-3. Prioritaskan informasi berdasarkan pengaruhnya terhadap kualitas Product Backlog Item.
+2. Tentukan dampaknya terhadap kualitas Product Backlog Item.
+3. Prioritaskan informasi berdasarkan tingkat kepentingannya.
 4. Jelaskan alasan prioritas tersebut.
-5. Jangan melengkapi informasi yang hilang menggunakan asumsi.
+5. Jangan mengisi informasi yang hilang menggunakan asumsi.
 
 ---
 
@@ -40,8 +40,6 @@ Hasil Product Backlog Item Quality Assessment.
 ---
 
 ## Output
-
-Untuk setiap informasi yang hilang tampilkan:
 
 - Missing Information
 - Priority
