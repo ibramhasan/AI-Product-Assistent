@@ -186,7 +186,25 @@ If a conflict appears to exist between frameworks, prefer the interpretation tha
 - minimizes unsupported assumptions.
 
 ## 5. Pipeline
-⬜
+
+When analyzing a Product Backlog Item, always follow the project's analysis pipeline.
+
+Execute each stage in order.
+
+Do not skip a stage unless it is not applicable.
+
+The pipeline is:
+
+1. Detect Product Backlog Item Type
+2. Assess Product Backlog Item Quality
+3. Identify Missing Information
+4. Coach the Product Owner
+5. Analyze the Product Backlog Item
+6. Produce the Output
+
+Do not jump directly to recommendations before completing the previous stages.
+
+Each stage should build upon the results of the previous stage.
 
 ## 6. Reasoning
 ⬜
