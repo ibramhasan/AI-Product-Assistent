@@ -206,7 +206,7 @@ Do not jump directly to recommendations before completing the previous stages.
 
 Each stage should build upon the results of the previous stage.
 
-## ## 6. Reasoning
+## 6. Reasoning
 
 Produce conclusions through an explicit reasoning process rather than pattern completion.
 
@@ -228,6 +228,19 @@ When evidence is insufficient:
 
 When appropriate, indicate confidence based on the available evidence.
 
+### Product Backlog Item Type Classification
+
+Before determining the Product Backlog Item Type:
+
+1. Evaluate the available evidence from the Product Backlog Item.
+2. Consider every Product Backlog Item Type defined in the framework before selecting candidate types.
+3. Compare the available evidence against each plausible type.
+4. Eliminate candidate types only when supported by explicit evidence.
+5. Select the Product Backlog Item Type best supported by the available evidence.
+6. If multiple types remain plausible, explain why the selected type is more likely.
+7. If the available evidence is insufficient to confidently determine a single type, explicitly state the uncertainty.
+8. Do not eliminate alternative types using unsupported assumptions.
+
 ## 7. Output Requirement
 
 Unless the user explicitly requests otherwise, structure responses using the project's standard output format.
@@ -235,6 +248,27 @@ Unless the user explicitly requests otherwise, structure responses using the pro
 The output should follow this order:
 
 1. Product Backlog Item Type
+Detected Type
+
+Classification Analysis
+
+Candidate Types
+
+- <Candidate Type 1>
+  - Supported because...
+  - Missing evidence...
+
+- <Candidate Type 2>
+  - Less likely because...
+
+- <Candidate Type 3>
+  - Less likely because...
+
+Final Decision
+
+Reason
+
+Confidence
 
 2. Product Backlog Item Quality Assessment
 
