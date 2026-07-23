@@ -1,133 +1,175 @@
 # Product Backlog Item Types
 
-Product Backlog Item tidak selalu berupa User Story.
+## Definition
 
-Jenis Product Backlog Item menentukan pendekatan analisis yang digunakan.
+A Product Backlog Item (PBI) type is determined by its primary purpose, not by its writing format.
+
+The selected type determines the most appropriate analysis approach.
+
+---
+
+## Classification Guidelines
+
+1. Identify the primary purpose.
+2. Ignore the writing format.
+3. Select the type that best represents the primary objective.
+4. If evidence is insufficient, ask clarifying questions before classifying.
 
 ---
 
 ## User Story
 
-Purpose
+**Purpose**
 
-Memberikan capability kepada pengguna.
+Deliver a new customer-facing capability.
 
-Focus
+**Focus**
 
-Customer
-Problem
-Value
+- Customer
+- Problem
+- Value
 
----
+**Example**
 
-## Bug
-
-Purpose
-
-Memperbaiki perilaku sistem yang tidak sesuai.
-
-Focus
-
-Expected Behavior
-Actual Behavior
-Impact
-
----
-
-## Spike
-
-Purpose
-
-Mengurangi ketidakpastian.
-
-Focus
-
-Learning
-
-Question
-
-Evidence
-
-Outcome
-
----
-
-## Experiment
-
-Purpose
-
-Menguji hipotesis.
-
-Focus
-
-Hypothesis
-
-Validation
-
-Learning
-
----
-
-## Technical Improvement
-
-Purpose
-
-Meningkatkan maintainability, quality, atau sustainability.
-
-Focus
-
-Technical Risk
-
-Maintainability
-
-Architecture
-
----
-
-## Research
-
-Purpose
-
-Mengumpulkan informasi.
-
-Focus
-
-Unknowns
-
-Learning
-
-Decision Support
-
----
-
-## Compliance
-
-Purpose
-
-Memenuhi regulasi atau kebutuhan audit.
-
-Focus
-
-Regulation
-
-Risk
-
-Evidence
-
-Deadline
+As a customer, I want to save favorite products.
 
 ---
 
 ## Improvement
 
-Purpose
+**Purpose**
 
-Meningkatkan capability yang sudah ada.
+Improve an existing customer-facing capability.
 
-Focus
+**Focus**
 
-Feedback
+- Feedback
+- Observation
+- Customer Value
 
-Observation
+**Example**
 
-Customer Value
+Improve checkout speed.
+
+---
+
+## Technical Improvement
+
+**Purpose**
+
+Improve technical quality and sustainability.
+
+**Focus**
+
+- Maintainability
+- Architecture
+- Technical Risk
+
+**Example**
+
+Improve dashboard performance.
+
+---
+
+## Bug
+
+**Purpose**
+
+Correct incorrect system behavior.
+
+**Focus**
+
+- Expected Behavior
+- Actual Behavior
+- Impact
+
+**Example**
+
+Users cannot save their profile.
+
+---
+
+## Spike
+
+**Purpose**
+
+Reduce uncertainty before implementation.
+
+**Focus**
+
+- Question
+- Learning
+- Evidence
+
+**Example**
+
+Investigate GraphQL suitability.
+
+---
+
+## Experiment
+
+**Purpose**
+
+Validate a hypothesis.
+
+**Focus**
+
+- Hypothesis
+- Validation
+- Learning
+
+**Example**
+
+Test whether a larger Checkout button increases conversion.
+
+---
+
+## Research
+
+**Purpose**
+
+Gather information for decision making.
+
+**Focus**
+
+- Unknowns
+- Learning
+- Decision Support
+
+**Example**
+
+Research payment providers.
+
+---
+
+## Compliance
+
+**Purpose**
+
+Meet regulatory or audit requirements.
+
+**Focus**
+
+- Regulation
+- Risk
+- Evidence
+- Deadline
+
+**Example**
+
+Implement PSD2 authentication.
+
+---
+
+## Similar Types
+
+User Story → New customer capability.
+
+Improvement → Improve existing customer capability.
+
+Technical Improvement → Improve technical quality.
+
+Spike → Answer a technical or product question before implementation.
+
+Experiment → Validate a hypothesis using measurable results.
