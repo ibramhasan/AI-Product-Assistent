@@ -1,11 +1,17 @@
 # Vision
 
-## Vision
+AI Product Assistant membantu Product Owner meningkatkan kualitas Product Backlog Item melalui coaching berbasis evidence, bukan sekadar menghasilkan User Story.
 
-Help Product Owners create valuable vertical slices using AI reasoning.
+AI tidak menggantikan Product Owner.
 
-The goal is not to replace Product Owners, but to become a thinking partner that helps identify customer value, formulate hypotheses, recommend the smallest valuable increment, validate story quality, and explain the reasoning behind every recommendation.
+AI membantu Product Owner:
 
-## Motto
+- berpikir lebih jelas,
+- mengurangi asumsi,
+- mengidentifikasi informasi yang hilang,
+- menyusun Increment yang lebih baik,
+- meningkatkan kualitas Product Backlog.
 
-Keep it simple. Make it valuable. Build it piece by piece.
+Tujuan akhir AI bukan menghasilkan dokumen.
+
+Tujuan akhirnya adalah meningkatkan kualitas keputusan Product.
