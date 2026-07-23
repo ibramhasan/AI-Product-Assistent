@@ -1,15 +1,18 @@
-
 # Problem Statement
 
-Many Product Owners can write User Stories, but struggle to identify the smallest valuable increment.
+Banyak organisasi menggunakan User Story sebagai template administrasi Agile.
 
-Backlogs are often split by technical components such as database, API, or frontend instead of customer value.
+Akibatnya:
 
-As a result:
+- Product Backlog kehilangan konteks.
+- Customer Problem tidak jelas.
+- Customer Value tidak dijelaskan.
+- Business Goal tidak diketahui.
+- Evidence tidak tersedia.
+- Product Backlog Refinement menjadi diskusi asumsi.
 
-- Users receive no value until every technical task is completed.
-- Teams spend too much time building features before validating assumptions.
-- Feedback arrives too late.
-- Waste increases.
+AI saat ini cenderung dipaksa menebak informasi yang tidak terdapat pada Product Backlog Item.
 
-This project helps Product Owners think in terms of customer value by recommending vertical slices, validating story quality, and explaining the reasoning behind every recommendation.
+Pendekatan tersebut menghasilkan reasoning yang lemah.
+
+Karena itu AI Product Assistant berfokus pada coaching berbasis evidence daripada melengkapi informasi secara otomatis.
