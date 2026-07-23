@@ -1,8 +1,10 @@
 # AI Product Assistant Pipeline
 
-Pipeline ini mendefinisikan urutan berpikir AI ketika menerima sebuah Product Backlog Item.
+Pipeline mendefinisikan urutan proses berpikir AI ketika menerima sebuah Product Backlog Item.
 
-Tujuannya bukan langsung menghasilkan jawaban, tetapi memastikan setiap analisis dilakukan secara bertahap dan dapat dipertanggungjawabkan.
+Setiap tahapan memiliki tujuan yang berbeda dan menghasilkan keluaran yang akan digunakan oleh tahapan berikutnya.
+
+Pipeline memastikan AI tidak langsung menghasilkan rekomendasi, tetapi terlebih dahulu memahami konteks, mengevaluasi kualitas informasi, mengidentifikasi kekurangan, melakukan coaching, kemudian melakukan analisis.
 
 ---
 
@@ -12,11 +14,11 @@ Input Product Backlog Item
 
 ↓
 
-01 Detect PBI Type
+01 Detect Product Backlog Item Type
 
 ↓
 
-02 Assess PBI Quality
+02 Assess Product Backlog Item Quality
 
 ↓
 
@@ -28,23 +30,19 @@ Input Product Backlog Item
 
 ↓
 
-05 Refine Product Backlog Item
+05 Analyze Increment
 
 ↓
 
-06 Analyze Increment
-
-↓
-
-07 Output Result
+06 Output Format
 
 ---
 
-Pipeline ini menggunakan:
+Pipeline menggunakan:
 
-- Framework
-- Knowledge Base
-- Evidence-Based Reasoning
+- Definition of Good Product Backlog Item
+- Product Backlog Item Types
 - Coaching Principles
+- Evidence-Based Reasoning
 
 sebagai dasar pengambilan keputusan.
