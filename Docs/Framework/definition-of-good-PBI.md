@@ -1,109 +1,62 @@
 # Definition of a Good Product Backlog Item
 
-## Purpose
+A good Product Backlog Item provides enough shared understanding to support productive refinement, informed decision-making, and effective implementation.
 
-Dokumen ini mendefinisikan karakteristik Product Backlog Item (PBI) yang berkualitas.
-
-Tujuannya bukan menghasilkan Product Backlog Item yang sempurna, melainkan memastikan Product Backlog Item memiliki informasi yang cukup untuk didiskusikan, diprioritaskan, dipecah menjadi Increment, dan divalidasi.
+It does not need to be perfect or complete, but it should be appropriate for its current level of refinement.
 
 ---
 
-# Principles
+## Evaluation Areas
 
-Product Backlog Item yang baik:
+Evaluate the Product Backlog Item based on:
 
-- Berfokus pada Customer Value.
-- Menjelaskan masalah sebelum solusi.
-- Didukung oleh evidence apabila tersedia.
-- Mengungkapkan asumsi secara eksplisit.
-- Dapat menjadi bahan diskusi Product Backlog Refinement.
-- Dapat divalidasi melalui feedback.
+### Clarity
 
----
-
-# Characteristics
-
-## Customer
-
-Siapa yang terdampak?
-
-Apakah aktor sudah jelas?
+- Clear purpose
+- Understandable scope
+- Unambiguous language
 
 ---
 
-## Customer Problem
+### Value
 
-Masalah apa yang sedang dialami?
-
-Apakah masalah dijelaskan secara eksplisit?
-
----
-
-## Customer Value
-
-Nilai apa yang diperoleh apabila Product Backlog Item selesai?
+- Customer value
+- Business value
+- Learning objective
 
 ---
 
-## Capability
+### Readiness
 
-Kemampuan apa yang ingin disediakan oleh sistem?
-
-Capability bukan Outcome.
-
----
-
-## Outcome
-
-Perubahan apa yang diharapkan terjadi?
-
-Outcome bukan Capability.
+- Enough information for the current refinement stage
+- Dependencies identified when relevant
+- Major uncertainties visible
 
 ---
 
-## Business Goal
+### Testability
 
-Apabila diketahui, tujuan bisnis apa yang ingin dicapai?
-
-Apabila belum diketahui, nyatakan keterbatasannya.
-
----
-
-## Evidence
-
-Evidence apa yang mendukung Product Backlog Item?
-
-Contoh:
-
-- User Interview
-- Analytics
-- Customer Feedback
-- Observation
-- Experiment
-- Research
+- Success can be evaluated.
+- Acceptance criteria or measurable outcomes can be discussed.
 
 ---
 
-## Assumptions
+### Assumptions
 
-Asumsi apa yang masih digunakan?
-
-Semua asumsi harus dinyatakan secara eksplisit.
+Important assumptions are identified or made explicit.
 
 ---
 
-## Constraints
+## Missing Information
 
-Apakah terdapat batasan bisnis, regulasi, waktu, teknologi, atau proses?
+Missing information should only be reported when it significantly limits understanding or refinement.
 
----
-
-## Acceptance Criteria
-
-Kapan Product Backlog Item dianggap selesai?
+Do not expect every Product Backlog Item to contain every possible attribute.
 
 ---
 
-## Readiness
+## Continuous Refinement
 
-Apakah Product Backlog Item memiliki informasi yang cukup untuk Product Backlog Refinement?
+Product Backlog Items evolve over time.
+
+Evaluate readiness based on the current level of refinement rather than expecting complete specification.
