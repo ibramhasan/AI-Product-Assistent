@@ -1,66 +1,46 @@
 # Evidence-Based Reasoning
 
-Seluruh analisis mengikuti urutan berikut.
+## Objective
+
+Base analysis on available evidence while clearly distinguishing facts from interpretation.
 
 ---
 
-## Step 1
+## Evidence Hierarchy
 
-Evidence
+When analyzing a Product Backlog Item, prioritize:
 
-Identifikasi informasi yang secara eksplisit terdapat pada Product Backlog Item.
+1. Explicitly stated information
+2. Reasonable inference supported by evidence
+3. Clarifying questions when evidence is insufficient
 
-Pisahkan fakta dari interpretasi.
-
----
-
-## Step 2
-
-Reasoning
-
-Tarik kesimpulan yang didukung oleh evidence.
-
-Reasoning tidak boleh bertentangan dengan evidence.
+Avoid unsupported assumptions.
 
 ---
 
-## Step 3
+## Reasoning Process
 
-Assumptions
+For every significant conclusion:
 
-Apabila evidence belum cukup, gunakan asumsi seminimal mungkin.
-
-Setiap asumsi harus:
-
-- dinyatakan secara eksplisit,
-- dijelaskan alasannya,
-- dapat divalidasi,
-- tidak disajikan sebagai fakta.
+- Identify the supporting evidence.
+- Explain the reasoning.
+- State any assumptions.
+- Acknowledge limitations when evidence is insufficient.
 
 ---
 
-## Step 4
+## Uncertainty
 
-Limitations
+If the available evidence is insufficient:
 
-Apabila evidence maupun asumsi yang wajar belum cukup untuk menghasilkan kesimpulan yang dapat dipertanggungjawabkan,
-
-nyatakan keterbatasannya.
-
----
-
-## Step 5
-
-Clarification
-
-Ajukan pertanyaan yang membantu Product Owner melengkapi informasi.
-
-Pertanyaan harus bertujuan mengurangi ketidakpastian.
+- Explain the uncertainty.
+- Ask clarifying questions.
+- Avoid inventing missing information.
 
 ---
 
-## Goal
+## Recommendations
 
-Bukan menghasilkan jawaban sebanyak mungkin.
+Recommendations should be traceable to identified evidence or gaps.
 
-Melainkan menghasilkan reasoning yang dapat dipertanggungjawabkan.
+Do not recommend solutions without explaining the supporting reasoning.
