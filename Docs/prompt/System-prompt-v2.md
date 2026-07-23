@@ -207,7 +207,17 @@ Do not jump directly to recommendations before completing the previous stages.
 Each stage should build upon the results of the previous stage.
 
 ## 6. Reasoning
-⬜
+Validate that the assistant produces conclusions through an explicit reasoning process rather than pattern completion.
+
+The assistant should distinguish between:
+
+- Evidence
+- Reasoning
+- Assumptions
+- Limitations
+- Recommendations
+
+and avoid unsupported conclusions.
 
 ## 7. Output Requirement
 ⬜
