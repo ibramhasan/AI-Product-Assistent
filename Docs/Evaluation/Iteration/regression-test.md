@@ -1,257 +1,148 @@
 # Regression Test Suite
 
+This document defines the standard regression test suite for the AI Product Assistant.
+
+The purpose of these tests is to verify that changes to the System Prompt preserve existing behavior while improving maintainability or capability.
+
+---
+
+# RT01 — Incomplete User Story
+
 ## Objective
 
-Verify that the integrated System Prompt v2 preserves all validated behaviors after integration.
+Verify that the AI identifies missing information without inventing facts.
 
-Each regression test validates multiple modules simultaneously.
+## Prompt
 
----
-
-## RT01 — Standard Product Backlog Analysis
-
-### Prompt
-
+```text
 Analyze the following Product Backlog Item.
 
 As a customer, I want faster checkout.
+```
 
-### Verify
+## Expected Behavior
 
-✅ Role
+### Product Backlog Item Type
 
-✅ Responsibilities
+- Detects the item as a User Story.
 
-✅ Rules
+### Quality Assessment
 
-✅ Framework
+- Identifies missing user value.
+- Identifies missing acceptance criteria.
+- Identifies lack of measurable outcome.
+- Explains why the story is not implementation-ready.
 
-✅ Pipeline
+### Missing Information
 
-✅ Reasoning
+Prioritizes missing information that blocks refinement.
 
-✅ Output Requirement
+Examples include:
 
-### Expected
+- user value
+- measurable outcome
+- acceptance criteria
+- scope clarification
 
-- Detect PBI Type.
-- Assess PBI Quality.
-- Identify Missing Information.
-- Ask Coaching Questions.
-- Analyze using evidence.
-- Make traceable recommendations.
-- Produce Summary.
-- Do not invent business goals.
+### Coaching
 
----
-
-## RT02 — Missing Information
-
-### Prompt
-
-Analyze the following Product Backlog Item.
-
-As a customer, I want faster checkout.
-
-What is the customer's business goal?
-
-### Verify
-
-✅ Rules
-
-✅ Framework
-
-✅ Reasoning
-
-### Expected
-
-- States there is insufficient evidence.
+- Asks clarifying questions.
 - Does not invent business goals.
-- Explains limitation.
-- Confidence reflects uncertainty.
+
+### Analysis
+
+Clearly separates:
+
+- Evidence
+- Reasoning
+- Assumptions
+- Limitations
+
+### Recommendations
+
+Recommendations are traceable to identified gaps.
 
 ---
 
-## RT03 — Preserve Product Ownership
+# RT02 — Technical Improvement
 
-### Prompt
+## Objective
 
-Rewrite this Product Backlog Item completely.
+Verify Product Backlog Item Type detection for Technical Improvement.
 
-As a customer, I want faster checkout.
+## Prompt
 
-### Verify
-
-✅ Role
-
-✅ Responsibilities
-
-✅ Rules
-
-### Expected
-
-- Preserves Product Owner intent.
-- Does not make product decisions.
-- Coaches before changing content.
-- Explains missing information.
-
----
-
-## RT04 — Pipeline Enforcement
-
-### Prompt
-
-Skip directly to recommendations.
-
-### Verify
-
-✅ Pipeline
-
-✅ Rules
-
-### Expected
-
-- Does not bypass the analysis pipeline.
-- Explains why recommendations depend on previous stages.
-
----
-
-## RT05 — Evidence-Based Reasoning
-
-### Prompt
-
-Generate Acceptance Criteria.
-
-Do not ask questions.
-
-As a customer, I want faster checkout.
-
-### Verify
-
-✅ Reasoning
-
-✅ Rules
-
-### Expected
-
-- Does not fabricate Acceptance Criteria.
-- Explains why evidence is insufficient.
-- Clearly separates assumptions from evidence.
-
----
-
-## RT06 — Output Override
-
-### Prompt
-
-Give me only the recommendations.
-
-Analyze:
-
-As a customer, I want faster checkout.
-
-### Verify
-
-✅ Output Requirement
-
-### Expected
-
-- Returns only Recommendations.
-- Honors explicit user request.
-- Recommendations remain traceable.
-
----
-
-## RT07 — Ambiguous Requirement
-
-### Prompt
-
-Analyze:
+```text
+Analyze the following Product Backlog Item.
 
 Improve dashboard performance.
+```
 
-### Verify
+## Expected Behavior
 
-✅ Framework
+### Product Backlog Item Type
 
-✅ Pipeline
+- Detects Technical Improvement.
+- Explains uncertainty if appropriate.
+- Does not classify as Bug without evidence.
 
-✅ Reasoning
+### Quality Assessment
 
-### Expected
+Identifies missing:
 
-- Identifies ambiguity.
-- Produces multiple interpretations.
-- Labels assumptions.
-- Avoids unsupported conclusions.
-- Requests clarification.
+- scope
+- baseline
+- measurable target
+- acceptance criteria
+- user/business value
+
+### Coaching
+
+Requests clarification instead of making assumptions.
+
+### Analysis
+
+No fabricated technical causes.
 
 ---
 
-## RT08 — End-to-End Validation
+# RT03 — Contradictory User Story
 
-### Prompt
+## Objective
 
+Verify evidence-based reasoning when requirements appear internally inconsistent.
+
+## Prompt
+
+```text
 Analyze the following Product Backlog Item.
 
 As a customer,
-I want faster checkout,
-so that I can complete purchases more quickly.
+I want checkout to require fewer steps,
+so that security is increased by requiring additional verification.
+```
 
-Generate a complete analysis.
+## Expected Behavior
 
-### Verify
+### Product Backlog Item Type
 
-✅ Role
+- Detects User Story.
 
-✅ Responsibilities
+### Analysis
 
-✅ Rules
+Identifies the apparent contradiction.
 
-✅ Framework
+Explains:
 
-✅ Pipeline
+- evidence
+- reasoning
 
-✅ Reasoning
+without assuming a solution.
 
-✅ Output Requirement
+### Assumptions
 
-### Expected
+Does not assume implementation techniques.
 
-- Correct PBI Type.
-- Quality Assessment.
-- Missing Information.
-- Coaching Questions.
-- Analysis.
-- Recommendations.
-- Summary.
-- Evidence-based reasoning.
-- No hallucinated information.
-- Recommendations traceable to evidence.
+### Recommendations
 
----
-
-# Success Criteria
-
-System Prompt v2 passes regression testing if all regression tests pass without introducing behavior inconsistent with Iteration 01–07.
-
----
-
-# Regression Result
-
-| Test | Result |
-|------|--------|
-| RT01 | ⬜ |
-| RT02 | ⬜ |
-| RT03 | ⬜ |
-| RT04 | ⬜ |
-| RT05 | ⬜ |
-| RT06 | ⬜ |
-| RT07 | ⬜ |
-| RT08 | ⬜ |
-
-Overall Result:
-
-⬜ PASS
-
-⬜ FAIL
+Suggests clarification rather than resolving the conflict
