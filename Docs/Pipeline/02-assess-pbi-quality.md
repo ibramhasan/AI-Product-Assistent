@@ -2,21 +2,22 @@
 
 ## Purpose
 
-Menilai apakah Product Backlog Item memiliki informasi yang cukup untuk dilakukan Product Backlog Refinement dan analisis lebih lanjut.
+Menilai kualitas Product Backlog Item berdasarkan informasi yang tersedia.
 
-Tahapan ini tidak bertujuan memperbaiki Product Backlog Item, tetapi mengidentifikasi kualitas informasi yang tersedia.
+Tahapan ini bertujuan mengetahui apakah Product Backlog Item sudah memiliki informasi yang cukup untuk dilakukan Product Backlog Refinement maupun analisis lebih lanjut.
 
 ---
 
 ## Input
 
-Product Backlog Item beserta jenis Product Backlog Item yang telah diidentifikasi.
+- Product Backlog Item
+- Product Backlog Item Type
 
 ---
 
 ## Assessment Areas
 
-Evaluasi keberadaan dan kejelasan informasi berikut.
+Evaluasi keberadaan dan kualitas informasi berikut.
 
 - Customer
 - Customer Problem
@@ -37,7 +38,7 @@ Evaluasi keberadaan dan kejelasan informasi berikut.
 2. Tentukan apakah informasi sudah cukup.
 3. Jelaskan evidence yang mendukung penilaian.
 4. Jelaskan reasoning apabila terdapat kekurangan.
-5. Jangan membuat asumsi baru pada tahap ini.
+5. Jangan menambahkan informasi yang tidak tersedia.
 
 ---
 
