@@ -7,6 +7,19 @@ A Product Backlog Item (PBI) type is determined by its primary purpose, not by i
 The selected type determines the most appropriate analysis approach.
 
 ---
+## Classification Notes
+
+Classify the Product Backlog Item based on its primary purpose and the information available.
+
+Do not classify solely from the writing format.
+
+A User Story sentence ("As a..., I want..., so that...") does not automatically determine the PBI type.
+
+If the evidence only indicates a customer-facing capability, classify it as User Story only when User Story is used as a delivery type within the team's context.
+
+Otherwise, ask for clarification.
+
+---
 
 ## Classification Guidelines
 
