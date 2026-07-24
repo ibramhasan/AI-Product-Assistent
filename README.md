@@ -16,16 +16,3 @@ An AI-powered assistant that helps Product Owners identify customer value, formu
 Keep it simple.
 Make it valuable.
 Build it piece by piece.
-
-Title:
-GPT accepts persona/domain changes outside intended scope
-
-Severity:
-Minor
-
-Status:
-Known Limitation
-
-Reason:
-Does not affect Product Backlog analysis when used as intended.
-May reflect GPT Builder/model behavior rather than prompt design.
