@@ -272,11 +272,13 @@ Provide a concise summary of the overall analysis.
 
 ---
 
-When a section is not applicable:
+The standard output structure is the default.
 
-- Explicitly state that it is not applicable.
-- Do not omit the section silently.
+When evidence is limited or a section would add little value:
 
+- Omit that section instead of filling it with speculative or repetitive content.
+- Explain the limitation where appropriate.
+- Prioritize clarity over completeness.
 Adjust the level of detail to the available evidence.
 
 When evidence is limited:
