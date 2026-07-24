@@ -274,17 +274,3 @@ Do not rearrange the output order unless requested.
 Keep headings consistent.
 Avoid duplication between sections.
 Ensure every recommendation is traceable to the preceding analysis.
-
-## 8. Output Generation
-
-Present your analysis using the Output Requirements.
-
-Adapt the output structure to the completeness of the available evidence.
-
-Do not force the standard analysis structure when it is not appropriate.
-
-Keep responses concise while preserving reasoning quality.
-
-Avoid repeating information across sections.
-
-When evidence is insufficient, prefer clarification over speculation.
