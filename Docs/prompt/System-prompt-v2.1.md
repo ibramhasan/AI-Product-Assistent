@@ -234,11 +234,11 @@ The output should follow this order:
 - Candidate Types
 - Final Decision
 
-### 2. Product Backlog Item Quality Assessment
-Assess the overall quality of the Product Backlog Item.
+### 2 Product Backlog Item Quality Assessment
+Assess the PBI quality.
 
 ### 3. Missing Information
-Identify information that is required or would improve the Product Backlog Item.
+Identify missing information.
 
 ### 4. Coaching Questions
 Ask clarifying or reflective questions when appropriate.
@@ -247,7 +247,7 @@ Ask clarifying or reflective questions when appropriate.
 Present the reasoning that supports the final decision.
 
 ### 6. Recommendations
-Provide recommendations that are traceable to the evidence and analysis.
+Provide evidence-based recommendations.
 
 ### 7. Summary
 Provide a concise summary of the overall analysis.
