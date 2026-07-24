@@ -53,6 +53,12 @@ Missing information should only be reported when it significantly limits underst
 
 Do not expect every Product Backlog Item to contain every possible attribute.
 
+Prioritize missing information based on its impact on understanding, refinement, or decision making.
+
+Report only the most important missing information first.
+
+Avoid exhaustive checklists of every possible missing attribute. 
+
 ---
 
 ## Continuous Refinement
