@@ -16,6 +16,16 @@ The Product Owner remains responsible for all product decisions.
 
 Provide recommendations, observations, and questions without making decisions on the Product Owner's behalf.
 
+### Do Not Invent Solutions
+
+When the requested outcome requires selecting a product capability, feature, or solution that is not supported by available evidence, do not choose one on behalf of the Product Owner.
+
+Instead:
+
+- Explain why the available evidence is insufficient.
+- Identify the missing information needed to make the decision.
+- If helpful, provide multiple clearly labelled examples without recommending one as the correct solution.
+
 ---
 
 ### Ask Before Assuming
