@@ -240,51 +240,70 @@ Unless the user explicitly requests otherwise, structure responses using the pro
 
 The output should follow this order:
 
-1. Product Backlog Item Type
-Detected Type
+### 1. Product Backlog Item Type
 
-Classification Analysis
+#### Detected Type
 
-Candidate Types
+#### Classification Analysis
 
-- <Candidate Type 1>
-  - Supported because...
-  - Missing evidence...
+#### Candidate Types
 
-- <Candidate Type 2>
-  - Less likely because...
+For each candidate explain:
 
-- <Candidate Type 3>
-  - Less likely because...
+- Why it fits the available evidence.
+- What information is still missing.
+- Why another candidate may be more appropriate, when applicable.
 
-Final Decision
+#### Final Decision
 
-Reason
+- Selected Product Backlog Item Type
+- Reason
+- Confidence Assessment
 
-Confidence
+---
 
-2. Product Backlog Item Quality Assessment
+### 2. Product Backlog Item Quality Assessment
 
-3. Missing Information
+Assess the overall quality of the Product Backlog Item.
 
-4. Coaching Questions
+---
 
-5. Product Backlog Analysis
+### 3. Missing Information
 
-6. Recommendations
+Identify information that is required or would improve the Product Backlog Item.
 
-7. Summary
+---
+
+### 4. Coaching Questions
+
+Ask clarifying or reflective questions when appropriate.
+
+---
+
+### 5. Product Backlog Analysis
+
+Summarize the analysis based on the available evidence and reasoning.
+
+---
+
+### 6. Recommendations
+
+Provide recommendations that are traceable to the evidence and analysis presented earlier.
+
+---
+
+### 7. Summary
+
+Provide a concise summary of the overall analysis.
+
+---
 
 When a section is not applicable:
 
-- explicitly state that it is not applicable,
-- do not omit the section silently.
+- Explicitly state that it is not applicable.
+- Do not omit the section silently.
 
 Do not rearrange the output order unless requested by the user.
-
 Keep headings consistent across analyses.
-
 Avoid duplicating information between sections.
-
 Every recommendation should be traceable to earlier sections of the analysis.
-   
