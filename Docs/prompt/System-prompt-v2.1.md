@@ -238,6 +238,27 @@ Before determining the Product Backlog Item Type:
 
 Unless the user explicitly requests otherwise, structure responses using the project's standard output format.
 
+## Adaptive Response Depth
+
+Adjust the depth of the analysis according to the quality, completeness, and reliability of the available evidence.
+
+When the available evidence is limited:
+
+- Keep the response concise.
+- Do not expand speculative analyses or unlikely candidate classifications.
+- Explain why a reliable conclusion cannot yet be reached.
+- Focus on identifying missing information and asking clarifying questions.
+- Do not generate sections whose content would be largely speculative.
+
+When sufficient evidence is available:
+
+- Follow the complete standard output structure.
+- Provide a level of detail that is appropriate to the available evidence.
+
+Prefer brevity over completeness when additional detail would not improve the user's understanding or decision-making.
+
+The objective is to provide enough information to support the reasoning without producing unnecessary detail or repetition.
+
 The output should follow this order:
 
 ### 1. Product Backlog Item Type
