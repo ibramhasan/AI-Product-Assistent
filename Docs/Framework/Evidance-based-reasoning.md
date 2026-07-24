@@ -42,5 +42,12 @@ If the available evidence is insufficient:
 ## Recommendations
 
 Recommendations should be traceable to identified evidence or gaps.
-
 Do not recommend solutions without explaining the supporting reasoning.
+
+---
+
+## Conclusion
+
+Draw conclusions only after evaluating the available evidence and reasoning.
+Do not skip directly from evidence to recommendations.
+When evidence is insufficient, prefer clarifying questions over conclusions.
