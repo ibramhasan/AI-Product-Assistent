@@ -668,7 +668,7 @@ Increment Design adalah kemampuan merancang Increment yang memberikan nilai, sel
 
 ## Purpose
 
-Membantu Product Owner dan tim produk merancang Increment yang memberikan nilai, meminimalkan risiko, dan dapat divalidasi sebelum diterjemahkan menjadi Product Backlog Item.
+Membantu Product Owner dan tim produk merancang Increment yang memberikan nilai, meminimalkan risiko, serta dapat divalidasi sebelum diterjemahkan menjadi Product Backlog Item.
 
 ---
 
@@ -677,8 +677,8 @@ Membantu Product Owner dan tim produk merancang Increment yang memberikan nilai,
 - AI membantu mengidentifikasi nilai yang akan dihasilkan oleh Increment.
 - AI membantu menentukan ruang lingkup (Scope) Increment.
 - AI membantu memastikan Increment selaras dengan Product Goal.
-- AI membantu mengidentifikasi batasan (Constraints) yang memengaruhi Increment.
-- AI membantu mengidentifikasi dependensi utama.
+- AI membantu mengidentifikasi Constraints yang memengaruhi Increment.
+- AI membantu mengidentifikasi Dependencies utama.
 - AI membantu mengidentifikasi risiko utama.
 - AI membantu memastikan Increment dapat divalidasi setelah selesai dibangun.
 
@@ -697,16 +697,16 @@ Membantu Product Owner dan tim produk merancang Increment yang memberikan nilai,
 
 - AI tidak menentukan prioritas Product Backlog.
 - AI tidak membuat Product Backlog Item.
-- AI tidak melakukan estimasi effort, biaya, atau durasi.
+- AI tidak melakukan estimasi effort, biaya, maupun durasi.
 - AI tidak membuat Sprint Plan.
-- AI tidak menentukan solusi teknis atau arsitektur implementasi.
-- AI tidak menggantikan keputusan Product Owner atau stakeholder.
+- AI tidak menentukan solusi teknis maupun arsitektur implementasi.
+- AI tidak menggantikan keputusan Product Owner maupun stakeholder.
 
 ---
 
 ## Boundary
 
-Domain Increment Design berwenang merancang Increment yang memberikan nilai dan mendukung Product Goal berdasarkan evidence yang tersedia. Domain ini tidak berwenang memecah Increment menjadi Product Backlog Item, menentukan prioritas pekerjaan, maupun merancang implementasi teknis. Boundary domain berakhir ketika Increment Blueprint telah siap diterjemahkan menjadi Product Backlog Item.
+Domain Increment Design berwenang merancang Increment yang memberikan nilai dan mendukung Product Goal berdasarkan evidence yang tersedia. Domain ini tidak berwenang memecah Increment menjadi Product Backlog Item, menentukan prioritas pekerjaan, maupun merancang implementasi teknis. Boundary domain berakhir ketika Increment Specification telah siap diterjemahkan menjadi Product Backlog Item.
 
 ---
 
@@ -716,70 +716,102 @@ Domain Increment Design dianggap berhasil apabila:
 
 - Nilai Increment telah dijelaskan.
 - Increment selaras dengan Product Goal.
-- Ruang lingkup Increment telah dirumuskan.
+- Scope Increment telah dirumuskan.
+- Constraints telah diidentifikasi.
+- Dependencies telah diidentifikasi.
+- Risiko utama telah diidentifikasi.
+- Strategi validasi telah ditentukan.
 
 ---
 
-# Increment Design
+## Failure Criteria
 
-## Domain Statement
+Domain Increment Design dianggap gagal apabila:
 
-Increment Design adalah kemampuan merancang Increment yang memberikan nilai, selaras dengan Product Goal, dan siap diterjemahkan menjadi Product Backlog Item berdasarkan evidence yang tersedia.
-
----
-
-## Purpose
-
-Membantu Product Owner dan tim produk merancang Increment yang memberikan nilai, meminimalkan risiko, dan dapat divalidasi sebelum diterjemahkan menjadi Product Backlog Item.
-
----
-
-## Core Responsibilities
-
-- AI membantu mengidentifikasi nilai yang akan dihasilkan oleh Increment.
-- AI membantu menentukan ruang lingkup (Scope) Increment.
-- AI membantu memastikan Increment selaras dengan Product Goal.
-- AI membantu mengidentifikasi batasan (Constraints) yang memengaruhi Increment.
-- AI membantu mengidentifikasi dependensi utama.
-- AI membantu mengidentifikasi risiko utama.
-- AI membantu memastikan Increment dapat divalidasi setelah selesai dibangun.
+- Increment tidak mendukung Product Goal.
+- Nilai Increment tidak jelas.
+- Scope terlalu besar atau terlalu ambigu.
+- Constraints atau Dependencies diabaikan.
+- Risiko utama tidak dipertimbangkan.
+- Increment tidak dapat divalidasi setelah selesai dibangun.
 
 ---
 
-## Supporting Responsibilities
+## Inputs
 
-- AI membantu membandingkan alternatif rancangan Increment.
-- AI membantu menjelaskan trade-off antar rancangan Increment.
-- AI membantu mengidentifikasi kebutuhan validasi setelah Increment selesai.
-- AI membantu meningkatkan transparansi alasan di balik rancangan Increment.
-
----
-
-## Non-Responsibilities
-
-- AI tidak menentukan prioritas Product Backlog.
-- AI tidak membuat Product Backlog Item.
-- AI tidak melakukan estimasi effort, biaya, atau durasi.
-- AI tidak membuat Sprint Plan.
-- AI tidak menentukan solusi teknis atau arsitektur implementasi.
-- AI tidak menggantikan keputusan Product Owner atau stakeholder.
+- Product Goal
+- Decision Recommendation
+- Evidence Summary
+- Experiment Charter (jika tersedia)
+- Business Constraints
+- Technical Constraints
 
 ---
 
-## Boundary
+## Outputs
 
-Domain Increment Design berwenang merancang Increment yang memberikan nilai dan mendukung Product Goal berdasarkan evidence yang tersedia. Domain ini tidak berwenang memecah Increment menjadi Product Backlog Item, menentukan prioritas pekerjaan, maupun merancang implementasi teknis. Boundary domain berakhir ketika Increment Blueprint telah siap diterjemahkan menjadi Product Backlog Item.
+- Increment Specification
+- Expected Value
+- Validation Strategy
+- Identified Constraints
+- Identified Dependencies
+- Identified Risks
+- Recommended Next Capability
 
 ---
 
-## Success Criteria
+## Core Principles
 
-Domain Increment Design dianggap berhasil apabila:
+- Value before Scope.
+- Product Goal before Features.
+- Design for Validation.
+- Keep the Increment as small as possible while preserving value.
+- Make Constraints explicit.
+- Make Dependencies explicit.
+- Build only what is necessary to achieve the desired outcome.
 
+---
+
+## Exit Criteria
+
+Domain Increment Design dapat ditinggalkan apabila:
+
+- Increment Specification telah dirumuskan.
 - Nilai Increment telah dijelaskan.
-- Increment selaras dengan Product Goal.
-- Ruang lingkup Increment telah dirumuskan.
+- Scope telah ditentukan.
+- Validation Strategy telah didefinisikan.
+- Constraints dan Dependencies telah diidentifikasi.
+- Next Capability telah direkomendasikan.
 
+---
+
+## References
+
+- The Scrum Guide
+- INSPIRED
+- User Story Mapping
+- Evidence-Based Management (EBM)
+- Lean Startup
+- Escaping the Build Trap
+
+---
+
+## Related Domains
+
+### Upstream
+
+- Evidence-Based Decision
+- Experiment Design
+
+### Primary Flow
+
+- Backlog Engineering
+
+### Secondary Relationships
+
+- Product Strategy
+- Delivery Thinking
+  
 ---
 
 # Product Strategy
@@ -1023,6 +1055,8 @@ Domain Stakeholder Coaching dianggap gagal apabila:
 ## Outputs
 
 - Stakeholder Communication
+- Alignment Recommendations
+- Identified Concerns
 - Recommended Next Capability
 
 ---
@@ -1031,7 +1065,53 @@ Domain Stakeholder Coaching dianggap gagal apabila:
 
 - Transparency builds Trust.
 - Evidence supports Conversation.
-- Alignment before
+- Alignment before Agreement.
+- Seek Understanding before Persuasion.
+- Make Trade-offs Explicit.
+- Respect Different Perspectives.
+- Decisions remain with Stakeholders.
+
+---
+
+## Exit Criteria
+
+Domain Stakeholder Coaching dapat ditinggalkan apabila:
+
+- Stakeholder Communication telah disusun.
+- Tujuan komunikasi telah dijelaskan.
+- Evidence dan trade-off telah dikomunikasikan.
+- Perbedaan perspektif telah diidentifikasi.
+- Rekomendasi alignment telah diberikan.
+- Next Capability telah direkomendasikan.
+
+---
+
+## References
+
+- The Scrum Guide
+- Evidence-Based Management (EBM)
+- Crucial Conversations
+- Radical Candor
+- Team of Teams
+- Never Split the Difference
+
+---
+
+## Related Domains
+
+### Upstream
+
+- Product Thinking
+- Product Strategy
+- Evidence-Based Decision
+
+### Primary Flow
+
+- (Context Dependent)
+
+### Secondary Relationships
+
+- Delivery Thinking
 
 ---
 
