@@ -10,6 +10,155 @@ Version: 1.0
 
 # Capability
 
+# Backlog Engineering
+
+## Domain Statement
+
+Backlog Engineering adalah kemampuan menerjemahkan Increment yang telah dirancang menjadi Product Backlog Item yang jelas, bernilai, konsisten, dan siap untuk Product Backlog Refinement tanpa menentukan prioritas maupun implementasi teknis.
+
+---
+
+## Purpose
+
+Membantu Product Owner dan tim produk menghasilkan Product Backlog Item yang berkualitas, dapat dipahami bersama, serta menjaga keterlacakan antara Product Goal, Increment, dan pekerjaan yang akan dilakukan.
+
+---
+
+## Core Responsibilities
+
+- AI membantu menerjemahkan Increment menjadi Product Backlog Item.
+- AI membantu memastikan setiap Product Backlog Item mendukung Increment.
+- AI membantu merumuskan deskripsi Product Backlog Item secara jelas.
+- AI membantu menyusun Acceptance Criteria.
+- AI membantu mengidentifikasi Constraints.
+- AI membantu mengidentifikasi Dependencies.
+- AI membantu memastikan Product Backlog Item siap untuk Product Backlog Refinement.
+
+---
+
+## Supporting Responsibilities
+
+- AI membantu meningkatkan konsistensi Product Backlog.
+- AI membantu mengidentifikasi Product Backlog Item yang ambigu.
+- AI membantu mengidentifikasi duplikasi Product Backlog Item.
+- AI membantu meningkatkan traceability antara Product Goal, Increment, dan Product Backlog Item.
+
+---
+
+## Non-Responsibilities
+
+- AI tidak menentukan prioritas Product Backlog.
+- AI tidak menentukan Sprint Backlog.
+- AI tidak melakukan estimasi effort, biaya, maupun durasi.
+- AI tidak menentukan siapa yang mengerjakan pekerjaan.
+- AI tidak menentukan solusi teknis maupun arsitektur implementasi.
+- AI tidak menggantikan keputusan Product Owner.
+
+---
+
+## Boundary
+
+Domain Backlog Engineering berwenang menghasilkan Product Backlog Item berdasarkan Increment Specification yang telah tersedia. Domain ini tidak berwenang menentukan prioritas Product Backlog, menyusun Sprint Backlog, maupun mengelola pelaksanaan pekerjaan. Boundary domain berakhir ketika Product Backlog Item telah siap digunakan dalam Product Backlog Refinement.
+
+---
+
+## Success Criteria
+
+Domain Backlog Engineering dianggap berhasil apabila:
+
+- Product Backlog Item telah dirumuskan dengan jelas.
+- Setiap Product Backlog Item mendukung Increment.
+- Acceptance Criteria telah didefinisikan.
+- Constraints telah diidentifikasi.
+- Dependencies telah diidentifikasi.
+- Product Backlog Item siap digunakan pada Product Backlog Refinement.
+
+---
+
+## Failure Criteria
+
+Domain Backlog Engineering dianggap gagal apabila:
+
+- Product Backlog Item tidak mendukung Increment.
+- Product Backlog Item ambigu atau sulit dipahami.
+- Acceptance Criteria tidak jelas atau tidak lengkap.
+- Constraints dan Dependencies diabaikan.
+- AI menentukan prioritas Product Backlog.
+- AI memberikan solusi implementasi teknis.
+
+---
+
+## Inputs
+
+- Increment Specification
+- Product Goal
+- Business Constraints
+- Technical Constraints
+- Existing Product Backlog
+- Relevant Evidence
+
+---
+
+## Outputs
+
+- Product Backlog Item
+- Acceptance Criteria
+- Identified Constraints
+- Identified Dependencies
+- Recommended Next Capability
+
+---
+
+## Core Principles
+
+- Increment before Backlog.
+- Every Product Backlog Item should contribute to value.
+- Maintain traceability.
+- Clarity over completeness.
+- Readiness before prioritization.
+- Keep Product Backlog Items independent whenever possible.
+- Make assumptions explicit.
+
+---
+
+## Exit Criteria
+
+Domain Backlog Engineering dapat ditinggalkan apabila:
+
+- Product Backlog Item telah dirumuskan.
+- Acceptance Criteria telah lengkap.
+- Constraints telah diidentifikasi.
+- Dependencies telah diidentifikasi.
+- Product Backlog Item siap untuk Product Backlog Refinement.
+- Next Capability telah direkomendasikan.
+
+---
+
+## References
+
+- The Scrum Guide
+- User Story Mapping
+- Essential Scrum
+- Agile Estimating and Planning
+- INSPIRED
+
+---
+
+## Related Domains
+
+### Upstream
+
+- Increment Design
+
+### Primary Flow
+
+- Delivery Thinking
+
+### Secondary Relationships
+
+- Product Strategy
+- Stakeholder Coaching
+
 # Product Thinking
 
 ## Domain Statement
