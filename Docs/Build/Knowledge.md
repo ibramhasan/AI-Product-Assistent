@@ -1696,51 +1696,60 @@ Informasi apa yang masih belum diketahui?
 
 ---
 
-# Decision Recommendation
+# Experiment Charter
 
 ## Purpose
 
-Mendokumentasikan rekomendasi keputusan berdasarkan evidence yang tersedia.
+Mendokumentasikan rancangan eksperimen untuk memperoleh evidence baru.
 
 ---
 
 ## Structure
 
-### Decision
+### Learning Goal
 
-Keputusan yang direkomendasikan.
+Apa yang ingin dipelajari?
 
-### Alternatives
+### Hypothesis
 
-Alternatif yang dipertimbangkan.
+Hipotesis yang akan diuji.
 
-### Supporting Evidence
+### Assumptions
 
-Evidence yang mendukung.
+Asumsi yang divalidasi.
 
-### Conflicting Evidence
+### Experiment Type
 
-Evidence yang bertentangan.
+Jenis eksperimen.
 
-### Confidence Level
+### Success Metrics
 
-Tingkat keyakinan.
+Bagaimana eksperimen dianggap berhasil?
 
-### Remaining Uncertainty
+### Failure Metrics
 
-Ketidakpastian yang masih ada.
+Bagaimana eksperimen dianggap gagal?
 
-### Rationale
+### Timebox
 
-Mengapa keputusan tersebut direkomendasikan?
+Durasi eksperimen.
+
+### Cost of Learning
+
+Investasi pembelajaran.
+
+### Risks
+
+Risiko utama.
 
 ---
 
 ## Quality Criteria
 
-- Semua rekomendasi memiliki evidence.
-- Confidence sesuai kualitas evidence.
-- Alasan keputusan transparan.
+- Hipotesis dapat diuji.
+- Metrik jelas.
+- Risiko dipahami.
+- Tujuan pembelajaran jelas.
 
 ---
 
@@ -2119,59 +2128,6 @@ Architecture Status:
 
 ---
 
-# Capability Validation
-
-## Purpose
-
-Validate that every Capability has a clear and unique responsibility.
-
----
-
-## Validation Checklist
-
-### Identity
-
-- [ ] Capability name is unique
-- [ ] Purpose is clearly defined
-- [ ] Domain Statement is complete
-
-### Responsibilities
-
-- [ ] Core Responsibilities are complete
-- [ ] Supporting Responsibilities are appropriate
-- [ ] Non-Responsibilities are explicit
-
-### Boundaries
-
-- [ ] Boundary is clearly defined
-- [ ] Success Criteria are measurable
-- [ ] Failure Criteria are defined
-
-### Contracts
-
-- [ ] Inputs are complete
-- [ ] Outputs are complete
-- [ ] Exit Criteria are defined
-
-### Relationships
-
-- [ ] Related Domains are correct
-- [ ] References are complete
-
----
-
-## Findings
-
-...
-
----
-
-## Recommended Actions
-
-...
-
----
-
 # Behavior Validation
 
 ## Purpose
@@ -2372,17 +2328,6 @@ Validate that each Capability is fully covered by test cases.
 ---
 
 # Instructions
-
-# Common Instructions
-
-- Read Capability.
-- Read Behavior.
-- Produce the defined Artifact.
-- Respect Capability boundaries.
-- Follow Validation rules.
-- Ask clarifying questions if needed.
-
----
 
 # Common Instructions
 
