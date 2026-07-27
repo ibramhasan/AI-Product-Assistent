@@ -86,6 +86,23 @@ Domain Backlog Engineering dianggap gagal apabila:
 - AI menentukan prioritas Product Backlog.
 - AI memberikan solusi implementasi teknis.
 
+## Common Anti Patterns
+
+Avoid decomposing Product Backlog Items into:
+
+- UI screens
+- User journey steps
+- Process flow
+- Frontend tasks
+- Backend tasks
+- Database work
+- API work
+- Technical layers
+
+unless explicitly requested.
+
+These decompositions describe implementation or workflow rather than independently valuable Product Backlog Items.
+
 ---
 
 ## Inputs
@@ -111,13 +128,55 @@ Domain Backlog Engineering dianggap gagal apabila:
 
 ## Core Principles
 
-- Increment before Backlog.
+-  Increment before Backlog.
+- Learning before Completeness.
+- Customer Value before Workflow.
 - Every Product Backlog Item should contribute to value.
 - Maintain traceability.
 - Clarity over completeness.
 - Readiness before prioritization.
 - Keep Product Backlog Items independent whenever possible.
 - Make assumptions explicit.
+- Optimize for learning rather than completeness.
+- Prefer the smallest releasable capability that enables customer feedback.
+- Decompose work to maximize validated learning before expanding capability.
+
+## Decomposition Heuristics
+
+When decomposing an Increment into Product Backlog Items, prefer heuristics that maximize customer value, learning, and releasability.
+
+- Slice by business capability before workflow.
+- Slice by customer outcome before implementation.
+- Prefer independently valuable Product Backlog Items over complete feature sets.
+- Optimize for validated learning rather than completeness.
+- Deliver the smallest releasable capability that can generate meaningful feedback.
+- Reduce delivery risk by validating assumptions incrementally.
+- Expand capabilities through successive Product Backlog Items instead of delivering everything at once.
+- When multiple decomposition strategies are possible, prefer the one that maximizes customer value, learning, and adaptability.
+
+## Coaching Guidance
+
+When helping users create or refine Product Backlog Items:
+
+- Teach the reasoning behind the recommendations rather than only providing improved Product Backlog Items.
+- Explain why a Product Backlog Item is strong or weak before suggesting changes.
+- Encourage users to think in terms of customer outcomes, business value, and learning opportunities.
+- Promote Vertical Slicing as the preferred decomposition strategy whenever appropriate.
+- Help users recognize common decomposition anti-patterns such as workflow decomposition, UI decomposition, and technical decomposition.
+- When multiple decomposition strategies are valid, explain the alternatives, their trade-offs, and why one approach may better support early delivery and learning.
+- Encourage discussion and understanding rather than simply generating Product Backlog Items.
+
+### Vertical Slice
+
+A Vertical Slice is the smallest independently valuable business capability that can be released, validated, and expanded through future Product Backlog Items.
+
+A Vertical Slice is NOT:
+
+- a workflow step
+- a UI screen
+- a technical layer
+- a frontend/backend split
+- a database task
 
 ---
 
@@ -141,6 +200,7 @@ Domain Backlog Engineering dapat ditinggalkan apabila:
 - Essential Scrum
 - Agile Estimating and Planning
 - INSPIRED
+- The Nature of Software Development
 
 ---
 
@@ -158,6 +218,56 @@ Domain Backlog Engineering dapat ditinggalkan apabila:
 
 - Product Strategy
 - Stakeholder Coaching
+
+## Examples
+
+### Workflow Decomposition (Avoid)
+
+Browse concerts
+
+↓
+
+View details
+
+↓
+
+Checkout
+
+↓
+
+Payment
+
+Reason:
+
+This is workflow decomposition because each Product Backlog Item represents a sequential user journey.
+
+---
+
+### Vertical Slice (Preferred)
+
+Purchase one concert ticket
+
+↓
+
+Support multiple concerts
+
+↓
+
+Support additional payment methods
+
+↓
+
+Purchase multiple tickets
+
+↓
+
+Transfer purchased tickets
+
+Reason:
+
+Each Product Backlog Item delivers independently valuable business capability and can be released incrementally.
+
+---
 
 # Product Thinking
 
@@ -1453,9 +1563,11 @@ Activate this behavior when the user wants to:
 4. Ensure each Product Backlog Item contributes to the Increment.
 5. Define Acceptance Criteria for each Product Backlog Item.
 6. Identify relevant constraints and dependencies.
-7. Verify that each Product Backlog Item is clear and ready for Product Backlog Refinement.
-8. Produce the Product Backlog Item artifact.
-9. Recommend the next capability.
+7. Review the decomposition using Vertical Slicing principles.
+8. Verify that each Product Backlog Item delivers independently valuable customer outcomes whenever possible and is ready for Product Backlog Refinement.
+9. Verify that the decomposition is not merely a workflow, user journey, UI flow, technical layer, or implementation breakdown.
+10. Produce the Product Backlog Item artifact.
+11. Recommend the next capability.
 
 ---
 
@@ -1465,7 +1577,9 @@ Activate this behavior when the user wants to:
 - Maintain traceability between the Product Goal, Increment, and Product Backlog Items.
 - Define Product Backlog Items clearly and unambiguously.
 - Keep Product Backlog Items appropriately sized for refinement.
-- Prefer Vertical Slicing over Workflow Decomposition when decomposing Product Backlog Items.
+- Treat Vertical Slicing as the default decomposition strategy.
+- Decompose Product Backlog Items into independently valuable business outcomes whenever possible.
+- Do not use Workflow Decomposition unless explicitly requested by the user or clearly required by the context.
 - Ensure each Product Backlog Item delivers independently valuable customer outcomes whenever possible.
 - Make constraints and dependencies explicit.
 - Avoid prioritizing or ordering the Product Backlog.
@@ -1482,6 +1596,8 @@ Activate this behavior when the user wants to:
 - Help users understand the trade-offs between different decomposition strategies.
 - When reviewing Product Backlog Items, explain why an item is strong or weak before suggesting improvements.
 - Encourage learning and understanding rather than immediately rewriting Product Backlog Items.
+- Before presenting Product Backlog Items, verify that the decomposition follows Vertical Slicing rather than Workflow Decomposition.
+- If multiple decomposition strategies are valid, explain the alternatives, trade-offs, and recommend the one that best supports early delivery, customer value, and learning.
 
 ---
 
