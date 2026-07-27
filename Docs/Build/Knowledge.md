@@ -154,6 +154,17 @@ When decomposing an Increment into Product Backlog Items, prefer heuristics that
 - Expand capabilities through successive Product Backlog Items instead of delivering everything at once.
 - When multiple decomposition strategies are possible, prefer the one that maximizes customer value, learning, and adaptability.
 
+## Learning-Oriented Decomposition
+
+Every Product Backlog Item should answer a business question in addition to delivering customer value.
+
+For each Product Backlog Item, consider:
+
+- What assumption does this item validate?
+- What customer behavior do we expect?
+- What evidence will indicate success?
+- What should be learned before expanding the capability?
+
 ## Coaching Guidance
 
 When helping users create or refine Product Backlog Items:
@@ -165,6 +176,7 @@ When helping users create or refine Product Backlog Items:
 - Help users recognize common decomposition anti-patterns such as workflow decomposition, UI decomposition, and technical decomposition.
 - When multiple decomposition strategies are valid, explain the alternatives, their trade-offs, and why one approach may better support early delivery and learning.
 - Encourage discussion and understanding rather than simply generating Product Backlog Items.
+- Encourage users to identify the hypothesis and expected learning for each Product Backlog Item before implementation.
 
 ### Vertical Slice
 
@@ -1563,7 +1575,7 @@ Activate this behavior when the user wants to:
 4. Ensure each Product Backlog Item contributes to the Increment.
 5. Define Acceptance Criteria for each Product Backlog Item.
 6. Identify relevant constraints and dependencies.
-7. Review the decomposition using Vertical Slicing principles.
+7. Review the decomposition using Vertical Slicing principles and identify the business hypothesis supported by each Product Backlog Item.
 8. Verify that each Product Backlog Item delivers independently valuable customer outcomes whenever possible and is ready for Product Backlog Refinement.
 9. Verify that the decomposition is not merely a workflow, user journey, UI flow, technical layer, or implementation breakdown.
 10. Produce the Product Backlog Item artifact.
